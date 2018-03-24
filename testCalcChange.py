@@ -1,5 +1,6 @@
 import math
 
+
 def testCalcChange():
     dollars = quarters = dimes = nickels = pennies = 0
     userInput = eval(input("Enter amount in dollars:  "))
@@ -25,7 +26,9 @@ def testCalcChange():
     print(nickles)
     print(pennies)
 
+
 def main():
     testCalcChange()
+
 
 main()
